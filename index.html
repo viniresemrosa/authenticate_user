@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Autenticação Simples</title>
+</head>
+<body>
+    <h1>Sistema de Autenticação</h1>
+
+    <div>
+        <h2>Registro</h2>
+        <input type="text" id="register-username" placeholder="Usuário" required>
+        <input type="password" id="register-password" placeholder="Senha" required>
+        <button onclick="register()">Registrar</button>
+    </div>
+
+    <div>
+        <h2>Login</h2>
+        <input type="text" id="login-username" placeholder="Usuário" required>
+        <input type="password" id="login-password" placeholder="Senha" required>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
